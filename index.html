@@ -1,61 +1,284 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Comercio Corporativo</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/index.css" />
-  </head>
-  <body>
-    <header class="container-fluid"></header>
-    <nav class="navbar navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <span class="link-info">Comercio</span>Corporativo</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="navbarS"
-          aria-controls="navbarS"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarS">
-          <ul class="navbar-nav ms-auto m-2 mb-lg-0">
-            <li class="nav-item">
-              <a href="#" class="nav-link">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+</head>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+<body>
+    <header>
+        <nav class="navbar navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <span class="link-info">Comercio</span>Corporativo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
+                    aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarS">
+                    <ul class="navbar-nav ms-auto m-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div id="carouselE" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselE" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="slide 1"></button>
+
+                <button type="button" data-bs-target="#carouselE" data-bs-slide-to="1" aria-current="true"
+                    aria-label="slide 2"></button>
+
+                <button type="button" data-bs-target="#carouselE" data-bs-slide-to="2" aria-current="true"
+                    aria-label="slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/comercioCorporativo3.svg" alt="Comercio Corporativo" />
+                    <div class="carousel-caption">
+                        <h3>Comercio Corporativo</h3>
+                        <p>
+                            Plataforma de medios digitales, la cual está conformada por un
+                            blog con noticias nacionales e internacionales, una agencia de
+                            noticias, redes sociales, programa de radio, podcast y twitter
+                            spaces. Impulsamos sus comunicaciones y proyectamos su empresa.
+                        </p>
+                        <a href="#" class="btn btn-info mt-3">Mas información</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/comercioCorporativo2.svg" alt="Comercio Corporativo" />
+                    <div class="carousel-caption">
+                        <h3>Contáctenos</h3>
+                        <p>
+                            Ofrecemos servicios de marketing digital para dar a conocer su
+                            emprendimiento, negocio, comercio o marca personal que hoy está
+                            haciendo crecer.
+                        </p>
+                        <a href="#" class="btn btn-info mt-3">Mas información</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/comercioCorporativo1.svg" alt="Comercio Corporativo" />
+                    <div class="carousel-caption">
+                        <h3>Periodismo digital</h3>
+                        <p>
+                            Ofrecemos coberturas periodísticas a sus eventos, publicación de
+                            notas de prensa, entrevistas, campañas en redes sociales para
+                            uso del cliente o para ser distribuidos a otros medios digitales
+                            o tradicionales. Brindamos gira de medios, con registro
+                            fotográfico y/o audiovisual.
+                        </p>
+                        <a href="#" class="btn btn-info mt-3">Mas información</a>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselE" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselE" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="about accordion-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img src="images/Dario-Ascanio.jpg" class="img-fluid" alt="Dario Ascanio" />
+                    </div>
+                </div>
+
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text text-dark">
+                        <h2>Sobre mi</h2>
+                        <p>
+                            ¡Hola a todos! Soy Dario Ascanio, creador y fundador de Comercio
+                            Corporativo, una plataforma de noticias y producción
+                            periodística, en nuestro blog cubrimos una amplia gama de temas,
+                            desde política y economía hasta cultura y entretenimiento. Como
+                            agencia de noticias, nos comprometemos a ser precisos,
+                            imparciales y éticos en todas nuestras publicaciones. Buscamos
+                            proporcionar una cobertura integral y objetiva de los eventos
+                            tanto a nivel local como global, y vamos más allá de los
+                            titulares para ofrecerles una visión más profunda de las
+                            noticias que impactan en nuestras vidas. Contamos con podcast
+                            donde profundizamos en temas candentes, entrevistamos a expertos
+                            en diferentes campos y exploramos historias fascinantes. También
+                            hemos creado un emocionante programa de radio que combina
+                            música, noticias y entrevistas interesantes. En las redes
+                            sociales, mantenemos cuentas activas y actualizadas
+                            constantemente para compartir información relevante. Los
+                            invitamos a seguirnos en nuestras redes para no perderse ninguna
+                            noticia importante.
+                        </p>
+                        <a href="#" class="btn btn-info mt-3">Mas información</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Nuestros Servicios</h2>
+                        <p>
+                            Nuestra empresa ofrece una amplia gama de servicios
+                            periodísticos de calidad para satisfacer las necesidades de
+                            comunicación de nuestros clientes. Nuestro equipo altamente
+                            capacitado se especializa en los siguientes servicios.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-black pb-2 ">
+                        <div class="card-body">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-newspaper" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z" />
+                                <path
+                                    d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+                            </svg>
+                            <h3 class="card-title">Coberturas periodísticas</h3>
+                            <p>
+                                Proporcionamos coberturas periodísticas completas y objetivas
+                                para una variedad de eventos, conferencias, reuniones y
+                                actividades. Redactamos y distribuimos notas de prensa
+                                persuasivas y efectivas, diseñadas para generar una amplia
+                                cobertura mediática capturando los aspectos más relevantes.
+                            </p>
+                            <a href="#" class="btn btn-info mt-3">Mas información</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-black pb-2">
+                        <div class="card-body">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-mic-fill" viewBox="0 0 16 16">
+                                <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0V3z" />
+                                <path
+                                    d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z" />
+                            </svg>
+                            <h3 class="card-title">Entrevistas</h3>
+                            <p>
+                                Nuestro equipo tiene experiencia en la realización de
+                                entrevistas en diversos medios, incluyendo radio, podcasts y
+                                la nueva plataforma de Twitter Spaces. Creamos un entorno
+                                propicio para que su mensaje sea transmitido de manera
+                                efectiva a la audiencia deseada.
+                            </p>
+                            <a href="#" class="btn btn-info mt-3">Mas información</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center bg-black pb-2">
+                        <div class="card-body">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-camera-video" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z" />
+                            </svg>
+                            <h3 class="card-title">Registros audiovisuales</h3>
+                            <p>
+                                Contamos con profesionales especializados en fotografía y
+                                producción audiovisual para capturar imágenes y vídeos de alta
+                                calidad que complementen sus actividades periodísticas. Estas
+                                imágenes se pueden utilizar para enriquecer sus materiales de
+                                comunicación y generar un mayor impacto visual.
+                            </p>
+                            <a href="#" class="btn btn-info mt-3">Mas información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section class="porfolio section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center text-black pb-5">
+                    <h2>Blog</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur maxime explicabo
+                        blanditiis voluptate adipisci quos aperiam et fugiat hic! Dicta debitis ipsa distinctio a odit
+                        eius incidunt quisquam eos?</p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+        <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-light text-center bg-info pb-2">
+                <div class="card-body text-black">
+                    <div class="img-area mb-4">
+                        <img src="images/logo_gris.svg" class img-fluid alt="logo_gris">
+
+                    </div>
+
+                </div>
+                <h3>Blog</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur maxime explicabo
+                    blanditiis voluptate adipisci quos aperiam et fugiat hic! Dicta debitis ipsa distinctio a odit
+                    eius incidunt quisquam eos?</p>
+
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+    <section>
+
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
