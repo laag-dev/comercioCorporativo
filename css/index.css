@@ -1,27 +1,28 @@
 *{
-    font-family: 'Roboto', sans-serif;
+
+    font-family::Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
+
 body{
-background:#070707 ;
+background:#161815;
 }
 
 .section-padding{
-padding: 80px 0;
+padding: 70px 0;
 }
 .carousel-item{
-    height: 80vh;
-    min-height: 300px;
-    font-style:inherit;
-    
+    height: 95vh;
+    min-height: 300px;   
 }
+
 .carousel-caption{
-bottom: 200px;
+bottom: 300px;
 z-index: 2;
 font-weight: bold;
 }
 .carousel-caption h1{
- font-size: 50px;
+ font-size: 35px;
  color: rgba(14, 16, 16, 0.838);
  text-transform: uppercase;
  letter-spacing: 2px;
@@ -31,11 +32,12 @@ font-weight: bold;
 .carousel-caption p{
     font-size: 20px;
     color: rgba(14, 16, 16, 0.838);
-    width: 60%;
+    width: 70%;
     margin: auto;
     line-height: 1.9;
     font-style:unset;
    }
+
 .carousel-inner::before{
 content: "";
 position: absolute;
@@ -43,18 +45,10 @@ width: 100%;
 height: 100%;
 top: 0;
 left: 0;
-background:rgba(8, 165, 170, 0.361) ;
+background:rgba(8, 165, 170, 0.623) ;
 z-index: 1; 
 }
-.d-item{
-    height: 700px;
-}
-.d-img{
-    height: 100vh;
-    
-    object-fit: cover;
-    filter: brightness(0.6);
-}
+
 
 .navbar-nav a{
     font-size: 15px;
@@ -70,12 +64,10 @@ letter-spacing: 2px;
 
 }
 
-.navbar-ligh .navbar-brand:focus, .navbar-ligh .navbar-brand:hover {
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
     color: black;
 }
-.w-100 {
-    
-}
+
 .navbar-toggler {
     padding: 1px 5px;
     font-size: 18px;
@@ -85,6 +77,12 @@ letter-spacing: 2px;
     background: #ffffff;
     box-shadow: inset 17px 17px 45px #666666,
                 inset -17px -17px 45px #ffffff;  
+}
+
+.card{
+    box-shadow: inset 17px 17px 45px #111111de,
+                inset -17px -17px 45px bg-info; 
+    transition: all 400ms ease;
 }
 .about{
 background: #141414;
@@ -102,6 +100,15 @@ box-shadow: inset 17px 17px 45px #080808,
 }
 .services .card-body{
     font-size: 16px;
+}
+.contac{
+    background-image:url(/images/logo_blanco.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+
+
 }
 @media (max-width: 767px) {
     .navbar-nav{
