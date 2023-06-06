@@ -1,3 +1,4 @@
+![Logo](https://pbs.twimg.com/profile_images/1657577499889483777/HOaOv41F_400x400.jpg)
 
 # Comercio Corporativo - Una plataforma de periodismo digital
 
@@ -14,7 +15,6 @@ El proyecto se enfoca en presentar información relevante y brindar servicios so
 
 
 
-![Logo](https://pbs.twimg.com/profile_images/1657577499889483777/HOaOv41F_400x400.jpg)
 
 
 ## Características del proyecto
