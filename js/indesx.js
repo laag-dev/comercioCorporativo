@@ -1,6 +1,6 @@
-const myModal = document.getElementById('myModal')
-const myInput = document.getElementById('myInput')
+let num1 = 18;
+let num2 = 2;
+let resul = num1+num2;
 
-myModal.addEventListener('shown.bs.modal', () => {
-  myInput.focus()
-})
+
+console.log("El resultado de la suma es: " + resul);
