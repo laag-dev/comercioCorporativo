@@ -4,7 +4,7 @@ El objetivo principal de este desarrollo es proporcionar una experiencia interac
 El proyecto se enfoca en presentar información relevante y brindar servicios sobre las empresas más importantes, los mercados financieros, las estrategias de negocios y los avances tecnológicos que impactan en el ámbito corporativo. Además, busca ofrecer análisis profundos y exclusivos, entrevistas con expertos en la industria y reportajes investigativos que permitan a los usuarios comprender los diversos aspectos del comercio corporativo.
 
 Proyecto:
-https://64b5e27500fa16035fa0f82f--delightful-cheesecake-8df1c2.netlify.app/
+https://comerciocorporativo.netlify.app/
 ## Autor
 
 ![Logo](https://pbs.twimg.com/profile_images/1657577499889483777/HOaOv41F_400x400.jpg)
